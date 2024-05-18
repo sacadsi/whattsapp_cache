@@ -32,7 +32,7 @@ if test -n "$(ls msg* 2>/dev/null)" ; then
           sleep 1.5
           echo "| nao reconhecidos a letra s ou n."
           sleep 1.5
-          echo -n "| abortando a \"msgkey extermination mission\""
+          echo -n "| abortando "
           echo -n "." ; echo -n `sleep 1.0`
           echo -n "." ; echo -n `sleep 1.0`
           echo "."
@@ -75,10 +75,9 @@ if test -e stickers* ; then
          sleep 1.0; echo "| ok, nada sera apagado";sleep 1.0
 
       else
-          echo "| não digitou sim, nao digitou não -;-)"
+          echo "| não digitou sim ou nao"
           sleep 1.0
-          echo "| nada sera feito" ; sleep 1.0
-          echo "| Hey there! I am using whatsapp"
+          echo "| nada sera feito"
       fi
 else
     echo "| stickerskey não encontrado..."
@@ -114,21 +113,16 @@ if test -n "$(ls)"; then
 
      else
          sleep 0.5
-         echo "| vc digitou algo diferente de s ou n";sleep 1.0
-         echo -n "| ocasionando o erro 404"
-         echo -n "." ; sleep 1.0
-         echo -n "." ; sleep 1.0
-         echo -n "." ; sleep 1.0
-         echo " piada não encontrada"
+         echo "| vc digitou algo diferente de s ou n"
      fi
 
 else
    echo "|"
-   echo "| .Shared esta vazio, então parabens kk";sleep 0.5
-   echo "| a pasta shared demora a recriar os arquivos";sleep 0.5
-   echo "| e os arquivos pesam pouco cada um";sleep 0.5
-   echo "| entao espere uns 15 dias...";sleep 0.5
-   echo "| ou quando estiverem pesando muito ^^>"
+   echo "| .Shared esta vazio"
+   echo "| a pasta shared demora a recriar os arquivos"
+   echo "| e os arquivos pesam pouco cada um"
+   echo "| entao espere uns 15 dias..."
+   echo "| ou quando estiverem pesando muito"
 fi
 
 sleep 0.5
